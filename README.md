@@ -1,2 +1,1 @@
 # Info
-Hello World
