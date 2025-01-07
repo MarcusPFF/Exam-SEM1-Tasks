@@ -26,11 +26,12 @@ public class Clothes extends Product {
 
     }
 
-    public void setPrice(){
-        if(price < 0){
+    //Setter for price
+    public void setPrice(double price) {
+        if (price >= 0) {
             this.price = price;
         } else {
-            System.out.println("Must be positive");
+            System.out.println("Price must be positive");
         }
     }
 
